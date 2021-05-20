@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mrshadat.blooddonationapp.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/registerDonorFragment"
+        android:name="com.mrshadat.blooddonationapp.RegisterDonorFragment"
+        android:label="fragment_register_donor"
+        tools:layout="@layout/fragment_register_donor" />
+    <fragment
+        android:id="@+id/donorListFragment"
+        android:name="com.mrshadat.blooddonationapp.DonorListFragment"
+        android:label="fragment_donor_list"
+        tools:layout="@layout/fragment_donor_list" />
+</navigation>
